@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header .descuentos {
+    padding: 10px;
+    font-size: 15px;
+    background-color: #1CD1B0;
+}
+
+header .titulo{
+    padding: 2px 16px;
+    display: flex;
+    align-items: center;
+    background-color: #00669F;
+}
+
+header h1{
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+}
+
+header nav{
+    background-color: #001D2D;
+    color: #fff;
+}
+
+header nav ul{
+    justify-content: end;
+    display: flex;
+}
+
+header nav a{
+    padding: 11px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin-block: 50px;
+}
+
+footer {
+    background-color: #00669F;
+    color: #FFF9F9;
+    padding: 16px;
+}
+
+
+article.card {
+    width: 300px;
+   
+}
+
+img.img-corazon {
+    position: absolute;
+    top: 15px;
+    left: 21px;
+}
+
+img.img-perfil {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+
+}
+
+.cards{
+    flex-wrap: wrap;
+    padding: 20px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.card-header {
+    position: relative;
+}
+
+.card-body {
+    text-align: center;
+    padding: 18px;
+    background-color: #F3F3F3;
+}
+
+.card-body h2 {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.card-body p {
+    text-align: left;
+}
+
+.card-body a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #00669F;
+    color: white;
+    text-decoration: none;
+}
+
+.cajaboton {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00669F;
+    color: #F3F3F3;
+}
+
+.fix{
+    position: fixed;
+    top: calc(50vh - 25px);
+    right: 20px;
+}
+
